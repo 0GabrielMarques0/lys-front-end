@@ -1,0 +1,111 @@
+body{
+    background-color:#7EC7DF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 375px;
+    height: 667px;
+    background-color:#7EC7DF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: black;
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+input {
+    width: 345px;
+    height: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    width:100%;
+    height:30px; 
+}
+
+.login-button {
+    width: 95%;
+    background-color:#1D63DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.forget-password {
+    color: black;
+    margin-top: 10px;
+}
+
+.new-account {
+    width: 359px;
+    background: #0D49B0;
+    color: #5B94F6;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.login-with {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.icons{
+    width: 50px ; 
+    height: 50px ;
+}
+
+.division {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.division > h5 {
+    margin: 4px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.rule {
+    width: 131px;
+    height: 0;
+    border: 1px solid #FFFFFF;
+}
+
