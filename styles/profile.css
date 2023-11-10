@@ -43,10 +43,27 @@ input {
 }
 
 footer {
-    margin: 2px;
+    margin: 20px;
     width: 375px;
     height: fit-content;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1D217C;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+  }
+
+  .a{
+    margin: 50px;
+  }
