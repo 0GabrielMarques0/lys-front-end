@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    
+
     width: 375px;
     height: 667px;
     display: flex;
@@ -38,8 +38,8 @@ input {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 footer {
@@ -52,18 +52,23 @@ footer {
     justify-content: center;
 }
 
+.footerdown {
+    width: 375px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#1D217C;
+    background-color: #1D217C;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    width: 200px;
+    width: fit-content;
+    padding: 5px 15px;
     height: 30px;
-  }
-
-  .a{
-    margin: 50px;
-  }
+}
