@@ -1,19 +1,19 @@
-body {
-    background-color: #7EC7DF;
-    display: flex;
+body{
+    height: 100vh;  
+    background-color:#7EC7DF;
+    display:flex;
     justify-content: center;
     align-items: center;
-}
-
-header {
-
+    margin: 0;
+  }
+  
+  header{   
     width: 375px;
     height: 667px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #7EC7DF;
     font-family: 'Roboto', sans-serif;
 }
 

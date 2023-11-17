@@ -1,14 +1,15 @@
 body{
+  height: 100vh;  
   background-color:#7EC7DF;
   display:flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
-header{
+header{   
   width: 375px;
   height: 667px;
-  background-color:#7EC7DF;
   display:flex;
   justify-content: center;
   flex-direction: column;

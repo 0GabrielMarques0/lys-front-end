@@ -1,14 +1,15 @@
 body{
+    height: 100vh;  
     background-color:#7EC7DF;
     display:flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
-
-header{
+  
+  header{   
     width: 375px;
     height: 667px;
-    background-color:#7EC7DF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +23,19 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+a > img{
+    height: 60px;
+    width: 60px;
 }
 
 main{
@@ -71,4 +85,21 @@ footer{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+.cvv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 65px;
+    width: 65px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.cvv > img{
+    height: 50px;
+    width: 50px;
 }
