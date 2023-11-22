@@ -11,7 +11,7 @@ header{
   width: 375px;
   height: 667px;
   display:flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
 }
@@ -34,8 +34,9 @@ nav{
 }
 
 main {
+  height: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
@@ -49,7 +50,6 @@ h3{
   justify-content: center;
   align-items: flex-end;
   font-size: 32px;
-  margin-top: 80px;
 }
 
 main > img {

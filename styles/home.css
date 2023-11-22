@@ -47,8 +47,35 @@ main{
     align-items: center;
 }
 
-.diario , .conteudos{
-    background-color: aliceblue;
+main > .leftColumn > img {
+    height: 150px;
+    width: 150px;
+}
+
+.leftColumn{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.texto > h3{
+    margin: 0;
+}
+
+.leftColumn > .texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.conteudos, .leftColumn{
+    background-color: #c7eefb;
     width: 46%;
     height: 100%;
     border: 2px solid #1D63DB;
@@ -64,9 +91,21 @@ main{
     height: 100%;
 }
 
+.conteudos > a{
+    color: black;
+    text-decoration: none;
+}
+
 .conteudo{
     width: 100%;
     height: 33.33%;
+}
+
+.a, .b, .c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
 }
 
 .b{
@@ -91,7 +130,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: white;
     height: 65px;
     width: 65px;
     border-radius: 10px;
