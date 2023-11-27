@@ -1,22 +1,22 @@
-body{
-  height: 100vh;  
-  background-color:#7EC7DF;
-  display:flex;
+body {
+  height: 100vh;
+  background-color: #7EC7DF;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
 
-header{   
+header {
   width: 375px;
   height: 667px;
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
 }
 
-nav{
+nav {
   width: 375px;
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@ nav{
   right: 10px;
 }
 
-.arrow > img {
+.arrow>img {
   width: 50px;
   height: 50px;
 }
@@ -41,18 +41,18 @@ main {
   flex-direction: column;
 }
 
-h3{
+h3 {
   margin: 0;
 }
 
-.textDiarios{
+.textDiarios {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   font-size: 32px;
 }
 
-main > img {
+main>img {
   width: 200px;
   height: 200px;
 }
@@ -63,21 +63,21 @@ article {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  background-color:#1D217C;
+  background-color: #1D217C;
   border-radius: 10px;
 }
 
-article > h3{
+article>a,h3 {
   color: white;
 }
 
-.iconsDiaries{
+.iconsDiaries {
   width: 250px;
   display: flex;
   align-items: center;
 }
 
-a > img {
+a>img {
   width: 50px;
   height: 50px;
 }
@@ -86,7 +86,7 @@ a > img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#1D217C;
+  background-color: #1D217C;
   margin: 20px;
   color: white;
   text-decoration: none;

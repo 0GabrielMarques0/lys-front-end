@@ -1,13 +1,13 @@
-body{
-    height: 100vh;  
-    background-color:#7EC7DF;
-    display:flex;
+body {
+    height: 100vh;
+    background-color: #7EC7DF;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-  }
-  
-  header{   
+}
+
+header {
     width: 375px;
     height: 667px;
     display: flex;
@@ -17,7 +17,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-nav{
+nav {
     width: 375px;
     height: fit-content;
     display: flex;
@@ -25,7 +25,7 @@ nav{
     justify-content: space-between;
 }
 
-nav > a{
+nav>a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,12 +33,12 @@ nav > a{
     width: 100px;
 }
 
-a > img{
+a>img {
     height: 60px;
     width: 60px;
 }
 
-main{
+main {
     margin: 2px;
     width: 375px;
     height: 70%;
@@ -47,25 +47,25 @@ main{
     align-items: center;
 }
 
-main > .leftColumn > img {
+main>.leftColumn>img {
     height: 150px;
     width: 150px;
 }
 
-.leftColumn{
+.leftColumn {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: black;
     text-decoration: none;
 }
 
-.texto > h3{
+.texto>h3 {
     margin: 0;
 }
 
-.leftColumn > .texto{
+.leftColumn>.texto {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +74,8 @@ main > .leftColumn > img {
     margin-bottom: 20px;
 }
 
-.conteudos, .leftColumn{
+.conteudos,
+.leftColumn {
     background-color: #c7eefb;
     width: 46%;
     height: 100%;
@@ -82,7 +83,7 @@ main > .leftColumn > img {
     border-radius: 5px;
 }
 
-.conteudos{
+.conteudos {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,25 +92,27 @@ main > .leftColumn > img {
     height: 100%;
 }
 
-.conteudos > a{
+.conteudos>a {
     color: black;
     text-decoration: none;
 }
 
-.conteudo{
+.conteudo {
     width: 100%;
     height: 33.33%;
 }
 
-.a, .b, .c{
+.a,
+.b,
+.c {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
 }
 
-.b{
-    border: 2px solid #1D63DB ;
+.b {
+    border: 2px solid #1D63DB;
 }
 
 .logo {
@@ -117,7 +120,7 @@ main > .leftColumn > img {
     height: 100px;
 }
 
-footer{
+footer {
     margin: 2px;
     width: 375px;
     height: fit-content;
@@ -126,7 +129,7 @@ footer{
     justify-content: flex-end;
 }
 
-.cvv{
+.cvv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +141,7 @@ footer{
     margin-top: 10px;
 }
 
-.cvv > img{
+.cvv>img {
     height: 50px;
     width: 50px;
 }

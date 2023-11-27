@@ -1,16 +1,16 @@
-body{
-  height: 100vh;  
-  background-color:#7EC7DF;
-  display:flex;
+body {
+  height: 100vh;
+  background-color: #7EC7DF;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 0;
 }
 
-header{   
+header {
   width: 375px;
-  height: 667px; 
+  height: 667px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -40,7 +40,7 @@ h1 {
   font-size: 14px;
 }
 
-.c{
+.c {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,14 +51,14 @@ h1 {
 footer {
   width: 75px;
   height: 64px;
-  position: relative; 
+  position: relative;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;  
+  align-items: flex-end;
   right: -130px;
 }
 
-footer > a {
+footer>a {
   display: flex;
   justify-content: center;
   align-items: center;
