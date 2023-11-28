@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background-color: #7EC7DF;
+  background-color: #7ec7df;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -28,7 +28,7 @@ nav {
   right: 10px;
 }
 
-.arrow>img {
+.arrow > img {
   width: 50px;
   height: 50px;
 }
@@ -52,7 +52,7 @@ h3 {
   font-size: 32px;
 }
 
-main>img {
+main > img {
   width: 200px;
   height: 200px;
 }
@@ -63,11 +63,12 @@ article {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  background-color: #1D217C;
+  background-color: #1d217c;
   border-radius: 10px;
 }
 
-article>a,h3 {
+article > a,
+h3 {
   color: white;
 }
 
@@ -77,7 +78,7 @@ article>a,h3 {
   align-items: center;
 }
 
-a>img {
+a > img {
   width: 50px;
   height: 50px;
 }
@@ -86,7 +87,7 @@ a>img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1D217C;
+  background-color: #1d217c;
   margin: 20px;
   color: white;
   text-decoration: none;

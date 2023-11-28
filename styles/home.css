@@ -1,147 +1,147 @@
 body {
-    height: 100vh;
-    background-color: #7EC7DF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+  height: 100vh;
+  background-color: #7ec7df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 header {
-    width: 375px;
-    height: 667px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+  width: 375px;
+  height: 667px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
-    width: 375px;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 375px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100px;
+nav > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
 }
 
-a>img {
-    height: 60px;
-    width: 60px;
+a > img {
+  height: 60px;
+  width: 60px;
 }
 
 main {
-    margin: 2px;
-    width: 375px;
-    height: 70%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  margin: 2px;
+  width: 375px;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-main>.leftColumn>img {
-    height: 150px;
-    width: 150px;
+main > .leftColumn > img {
+  height: 150px;
+  width: 150px;
 }
 
 .leftColumn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
 }
 
-.texto>h3 {
-    margin: 0;
+.texto > h3 {
+  margin: 0;
 }
 
-.leftColumn>.texto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 28px;
-    margin-bottom: 20px;
+.leftColumn > .texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
 .conteudos,
 .leftColumn {
-    background-color: #c7eefb;
-    width: 46%;
-    height: 100%;
-    border: 2px solid #1D63DB;
-    border-radius: 5px;
+  background-color: #c7eefb;
+  width: 46%;
+  height: 100%;
+  border: 2px solid #1d63db;
+  border-radius: 5px;
 }
 
 .conteudos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 46%;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 46%;
+  height: 100%;
 }
 
-.conteudos>a {
-    color: black;
-    text-decoration: none;
+.conteudos > a {
+  color: black;
+  text-decoration: none;
 }
 
 .conteudo {
-    width: 100%;
-    height: 33.33%;
+  width: 100%;
+  height: 33.33%;
 }
 
 .a,
 .b,
 .c {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .b {
-    border: 2px solid #1D63DB;
+  border: 2px solid #1d63db;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 footer {
-    margin: 2px;
-    width: 375px;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  margin: 2px;
+  width: 375px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .cvv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    height: 65px;
-    width: 65px;
-    border-radius: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
-.cvv>img {
-    height: 50px;
-    width: 50px;
+.cvv > img {
+  height: 50px;
+  width: 50px;
 }

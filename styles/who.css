@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background-color: #7EC7DF;
+  background-color: #7ec7df;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,13 +15,12 @@ header {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 article {
   padding: 0 30px;
 }
-
 
 h1 {
   display: flex;
@@ -58,7 +57,7 @@ footer {
   right: -130px;
 }
 
-footer>a {
+footer > a {
   display: flex;
   justify-content: center;
   align-items: center;
