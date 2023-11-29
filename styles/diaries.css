@@ -102,7 +102,7 @@ a>img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
   color: white;
   text-decoration: none;
   border-radius: 4px;
