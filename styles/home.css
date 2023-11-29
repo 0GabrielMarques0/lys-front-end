@@ -145,3 +145,60 @@ footer {
   height: 50px;
   width: 50px;
 }
+
+/* tentativa do toggle de emotes */
+.menus {
+  width: fit-content;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.menus ul ul {
+display: none;
+}
+.menus ul li:hover > ul {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+position: absolute;
+top: 75px;
+right: -12px;
+}
+.menus {
+  font-size: 14px;
+}
+.menus ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menus ul li {
+  display: inline-block;
+  position: relative;
+  align-items: center;
+}
+.menus ul li a {
+  display: flex;
+  padding: 10px 20px;
+}
+.menus ul ul {
+  background-color: #c7eefb;
+  width: max-content ;
+  border: 1px solid #1d63db;
+  border-radius: 5px;
+}
+.menus ul ul li {
+  display: block;
+}
+.menus ul ul li a {
+  padding: 10px;
+}
+.menus ul ul li img {
+  width: 20px;
+  height: 20px;
+}
+.menus a {
+  font-size: 19px;
+  padding: 5px  0 ;
+}
