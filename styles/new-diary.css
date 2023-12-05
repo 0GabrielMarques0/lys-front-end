@@ -60,3 +60,6 @@ a>img {
   height: 50px;
 }
 
+textarea {
+  resize: none;
+}
