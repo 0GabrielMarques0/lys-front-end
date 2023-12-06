@@ -7,8 +7,8 @@ body {
   margin: 0;
 }
 
-.arrow{
-  height: fit-content;  
+.arrow {
+  height: fit-content;
   width: fit-content;
 }
 
@@ -16,12 +16,19 @@ header {
   width: 375px;
   height: 667px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
 }
 
-nav{
+.top {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
   position: relative;
   height: 54px;
 }
@@ -29,7 +36,7 @@ nav{
 main {
   height: fit-content;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -38,15 +45,11 @@ h3 {
   margin: 0;
   font-size: 32px;
 }
-  
+
 article {
   width: 350px;
   height: 550px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: white;
   border-radius: 10px;
 }
 
@@ -62,4 +65,15 @@ a>img {
 
 textarea {
   resize: none;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-image:
+    repeating-linear-gradient(to bottom, transparent, transparent 20px, #ccc 20px, #ccc 21px);
+  background-size: 100% 21px;
+  /* Ajuste conforme necessário para a altura das linhas */
+  border: 1px solid #ccc;
+  font-size: 16px;
+  line-height: 19px;
 }
